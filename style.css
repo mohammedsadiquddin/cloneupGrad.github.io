@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    margin-top: 5vh;
+    position: relative;
+    width: 100%;
+}
+.slide{
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+.thirdrow{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+.fourthrow{
+    margin-top: 3vh;
+}
+#fourthrow{
+    margin: auto;
+    display: flex;
+    background-color: red;
+    color: white;
+    border: 2px;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+.arrowPrev{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.arrowNext{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    right: 10px;
+    margin-right: 7vw;
+}
+
+.arrowPrev1{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.arrowNext1{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    right: 10px;
+    margin-right: 7vw;
+}
+.container1{
+    margin: auto;
+    margin-top: 5vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.slide1{
+    display: flex;
+    flex-direction: row;
+    /* display: none; */
+}
+.slide1 img{
+    width: 10vw;
+}
+.slide2 h5{
+    cursor: pointer;
+}
+.slide2 h5:hover{
+    color: red;
+}
+.slide3{
+    display: flex;
+    justify-content: space-around;
+}
+.viewP{
+    display: flex;
+    margin: auto;
+    color: red;
+    background-color: white;
+    font-weight: bold;
+    border: 2px;
+}
+.slide4{
+    display: flex;
+    justify-content: space-around;
+}
+.footerbottom{
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: center;
+
+}
